@@ -1,0 +1,10 @@
+training yolo
+
+# create dataset
+use python -m labelme2yolov8 --json_dir examples\semantic_segmentation\labelme_json_dir  --val_size 0.15 --test_size 0.05 to convert from json (tool label) to YOLO format
+
+# download torch (python = 3.11)
+# install ultralytics => Done
+
+# Link file yaml to relative path 
+# Training
